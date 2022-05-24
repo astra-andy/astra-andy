@@ -10,7 +10,7 @@
 <body>
 
 <header class='win'>
-	<h1>Название проекта</h1>
+	<h1> СИНЕРГИЯ </h1>
 	<img src='img/topic.jpg' alt='' width='100%'/>
 </header>
 
