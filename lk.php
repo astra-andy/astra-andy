@@ -20,7 +20,7 @@ $title = 'Личный кабинет';
 ?>
 
 
-	<div style='text-align:center'>
+	<div style='text-align:center;'>
 
 		<h3>Личный кабинет</h3>
 
@@ -29,7 +29,10 @@ $title = 'Личный кабинет';
 			<br>
 		<? } else { ?>
 
-			<div><?= $user[Name] ?>, добро пожаловать!</div>
+			<br>
+			<img src='img/user.png' style='width:20%; min-width:100px' alt=''><br>
+
+			<div style='font-size:140%; line-height:140%'><strong><?= $user[Name] ?></strong>, добро пожаловать!</div>
 			<div style='color:#aaa'>Вы зарегистрированы в системе <?= substr($user[Created], 0, 10) ?></div>
 			<br>
 
